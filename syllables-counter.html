@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="syllable-counter.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+</head>
+<body>
+    <h1 id="title">Syllable Counter</h1>
+    <form action="">
+
+        <div id="top-p">
+            <p id="enter-text">Enter text</p>
+            <p id="n-syllables">Number of Syllables</p>
+        </div>
+        
+        <div id="middle">
+            <div id="txtarea-frame">
+                <textarea name="text area" id="txtarea" cols="30" rows="10" onkeypress="give_output()"> </textarea>
+            </div>
+            <div id="side-count">
+                <p id="output">
+
+                </p>
+            </div>
+        </div>
+        
+        <div id="button-frame">
+            <button type="button" class="button" id="reset" onclick="reset_f()">Reset</button>
+            <!-- <button type="button" class="button" id="submit" onclick="give_output()">Submit</button> -->
+        </div>
+        
+    </form>
+    <div id="message-frame">
+        <p id="message"></p>
+    </div>
+    
+</body>
+<script src="syllable-counter.js"></script>
+<footer>
+    <p>
+        Website made by Roméo Maignal / This site is supporting the French and English alphabet.
+    </p>
+    <hr>
+    <p>
+        Copyrights ® 2020 All rights reserved.
+    </p>
+</footer>
+</html>
