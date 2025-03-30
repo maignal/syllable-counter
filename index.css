@@ -1,12 +1,13 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
 }
-body{
+
+body {
     margin: 0px;
 }
 
-h1{
+h1 {
     background-color: orange;
     margin-top: 0px;
     padding-top: 20px;
@@ -19,7 +20,7 @@ h1{
 
 
 
-#top-p{
+#top-p {
     display: flex;
     width: 80%;
     margin-right: 10%;
@@ -27,10 +28,11 @@ h1{
 }
 
 
-#enter-text{
+#enter-text {
     width: 70%;
 }
-#n-syllables{
+
+#n-syllables {
     width: 30%;
 }
 
@@ -43,10 +45,10 @@ h1{
     height: 400px;
     margin-left: 10%;
     margin-right: 10%;
-    
+
 }
 
-#txtarea-frame{
+#txtarea-frame {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -54,27 +56,30 @@ h1{
     width: 70%;
 }
 
-textarea{
+textarea {
     background-color: #f5f6f6;
     justify-self: center;
     height: 100%;
     width: 100%;
     resize: none;
 }
-#button-frame{
+
+#button-frame {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     height: 200px;
 }
-.button{
+
+.button {
     border-radius: 25px;
     height: 40px;
-    width: 70px;;
+    width: 70px;
+    ;
 }
 
-#side-count{
+#side-count {
     display: flex;
     box-sizing: border-box;
     border: black 1px solid;
@@ -82,7 +87,8 @@ textarea{
     height: 100%;
     width: 30%;
 }
-#side-count p{
+
+#side-count p {
     text-align: center;
     position: relative;
     /* box-sizing: border-box; */
@@ -91,7 +97,7 @@ textarea{
     margin: 0px;
 }
 
-footer{
+footer {
     padding-top: 10px;
     text-align: center;
     color: white;
